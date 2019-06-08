@@ -23,7 +23,6 @@ DeMorais create home page using HTML and CSS. Making wireframe of home page by u
 dev.hrk.TRAAabout
 * about.html
 * main.css
-* about_wireframe.jpg
 
 dev.@@@.TRAAhome
 * index.html
