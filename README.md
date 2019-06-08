@@ -13,10 +13,10 @@ Hyeryn Kim, Vinicius De Morais
 
 ## Activities
 ```bash
-Kim create about page using HTML and CSS. Making wireframe of about page by using photoshop
+Kim created about page using HTML and CSS. Making wireframe of about page by using photoshop
 ```
 ```bash
-DeMorais create home page using HTML and CSS. Making wireframe of home page by using photoshop
+DeMorais created home page using HTML and CSS. Making wireframe of home page by using photoshop
 ```
 
 ## Branch
