@@ -1,7 +1,7 @@
 
 TRAA Home and About page
 ============
-Hyeryn Kim, Vinicius De Morais 
+Hyeryn Kim, Vinicius Schunck de Morais 
 -
 ## List of files in master folder
 * index.html
@@ -24,6 +24,6 @@ dev.hrk.TRAAabout
 * about.html
 * main.css
 
-dev.@@@.TRAAhome
+dev.vsm.TRAAhome
 * index.html
 * main.css

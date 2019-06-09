@@ -1,253 +1,561 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video 
-{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+body { 
+    font-family: 'Nanum Gothic', sans-serif; 
+    margin: 0;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+a:link, a:visited { 
+    text-decoration:none; 
 }
 
-body {
-	color: black;
 
-	font-family: helvetica, sans-serif;
-	font-size: 16px;
 
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: thin dashed #333;
 }
-/* Header */
 
 .hidden {
 	display: none;
 }
 
-main 
-{
+
+/* Header */
+
+.mainheader {
     width: 1200px;
-    margin: 0 auto;
-	border: thin dashed #333;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+#logoFlex {
+    margin: 20px auto 20px 100px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
 
-#main-header
-{
-display: flex;
-flex-direction: row;
-margin: 0 100px;
+.menuFlex{
+    width: 750px;
+    margin: auto auto auto 100px;
+    padding: 0;
+    list-style: none;
+    background-color: gray;
 }
 
-#logo
-{
-margin: 20px 0; 
-height: 177px;
-width: 200px;
-background-color: #ff5656;
+
+
+
+
+
+.menu-item {  
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+    padding-left: 43px;
 }
 
-#main-nav
-{
-height: 40px;
-width: 690px;
-margin: 100px 0 0 100px;
-background-color: #6d6d6d;
+.menu-item:first-child {
+    padding: 0;
+} 
+
+.menu li a {
+    color: black;
 }
 
-#banner
-{
-	width: 1200px;
-	height: 600px;
-	background-color: #ff5656;
+.menu li a:hover {
+    background-color: #9abd4b;
+    color: white;
 }
+
+#bannerFlex{
+    margin: 20px auto 20px 0px;
+    width: 1200px;
+    height: 600px;
+    background-color: red;
+}
+/* Main TRAA */
+
+
+#about-us-text {
+    margin: 0 0 50px 0;
+}
+
+#about-us h2 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9abd4b;
+    margin: 0 0 40px 0;
+}
+
+#about-us h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#mainSection {
+    margin: 50px 100px 0 100px;
+}
+
+#mainDiv {
+    width: 1000px;
+    height: 680px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.miniDivFlex{
+    width: 450px;
+    height: 560px;
+    flex-direction: row;
+    text-align: center;
+}
+
+.miniDivFlex-img{
+    width: 450px;
+    height: 450px;
+    background-color: red;
+}
+.miniDivFlex-text{
+    width: 450px;
+    height: 160px;
+    background-color: gray;
+}
+
+.miniDiv img {
+    margin: 20px auto 15px auto;
+}
+
+.miniDiv-text {
+    width: 310px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+#mainDiv p {
+    width: 300px;
+    height: 116px;
+    line-height: 22px;
+    font-size: 15px;
+    margin: 30px 10px 0 10px;
+    text-align: center;
+}
+
+/* END Main TRAA */
+
+/* Partners */
+#partners {
+    margin: 50px 100px 0 100px;
+}
+
+#mainPartFlex {
+    width: 1000px;
+    height: 00px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.part-logo{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.part-logo-Flex{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.part-logoFlex-img{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+}
+.part-logoFlex-text{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background-color: gray;
+}
+
+
+/*
+.part-logo-img{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+
+}
+
+.part-logo img {
+    margin: 20px auto 15px auto;
+}
+
+.part-logo-text {
+    width: 310px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+#mainPart p {
+    width: 300px;
+    height: 116px;
+    line-height: 22px;
+    font-size: 15px;
+    margin: 30px 10px 0 10px;
+    text-align: center;
+
+}*/
+
+
+#partners h2 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9abd4b;
+    margin: 0 0 40px 0;
+}
+
+#PartnersFlex  {
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    margin: 0 0 40px 0;
+}
+
+
+
+
+/*Executives*/ 
+
+#exevutives {
+    margin: 50px 100px 0 100px;
+}
+
+#mainExecFlex {
+    width: 1000px;
+    height: 260px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.part-exec{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.part-exec img {
+    margin: 20px auto 15px auto;
+}
+
+.part-exec-textFlex {
+    width: 310px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+#mainExec p {
+    width: 300px;
+    height: 116px;
+    line-height: 22px;
+    font-size: 15px;
+    margin: 30px 10px 0 10px;
+    text-align: center;
+}
+
+#executivesFlex {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9abd4b;
+    margin: 0 0 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* About TRAA */
 
-#about-traa1
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin:  50px 100px 0 100px;
+#about-us {
+    margin: 50px 100px 0 100px;
 }
 
-#about-traa2
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin:  20px 100px 0 100px;
+#about-us-text {
+    margin: 0 0 50px 0;
 }
 
-.about-traa-text
-{
-	background-color: #6d6d6d;
-	width: 320px;
-	height: 250px;
+#about-us h2 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9abd4b;
+    margin: 0 0 40px 0;
 }
+
+#about-us h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#traa-works {
+    width: 1000px;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 330px;
+    height: 260px;
+    text-align: center;
+}
+
+.icon img {
+    margin: 20px auto 15px auto;
+}
+
+.icon-text {
+    width: 310px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+
+.traa-works p {
+    width: 300px;
+    height: 116px;
+    line-height: 22px;
+    font-size: 15px;
+    margin: 30px 10px 0 10px;
+    text-align: center;
+}
+
 
 
 /* more about TRAA */
-#more-about-traa {
-	margin: 60px 100px 0 100px;
+
+#more-about {
+    margin: 120px 100px 0 100px;
 }
 
-.more-about-img-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+#more-about-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.more-about-img {
-	width: 450px;
-	height: 322px;
-	background-color: #ff5656;
+#more-about-text {
+    margin: 50px 0 80px 0;
 }
 
-.more-about-text {
-	width: 1000px;
-	height: 275px;
-	background-color: #6d6d6d;
-	margin: 50px 0 80px 0;
+#more-about-text p {
+    font-size: 17px;
+    line-height: 22px;
 }
+ 
 
-/* TRAA Project */
+
+/* project */
+
 #project-container {
-	padding: 80px 100px 0 100px;
+    padding: 80px 0 0 0;
+    margin: 0 100px 0 100px;
 	border-top: #585858 1px solid;
 }
 
-#project-title {
-	width: 1000px;
-	height: 175px;
-	background-color: #6d6d6d;
+#project-title h2 {
+    font-size: 45px;
+    color: #9abd4b;
+}
+
+
+#project-title h3 {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+#project-title p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0px;
 }
 
 #project-box-container {
-	margin: 50px 0 0 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#project {
+    width: 450px;
 }
 
 .project-img {
-	width: 450px;
-	height: 450px;
-	background-color: #ff5656;
+    margin: 55px 0 0;
 }
 
-.project-text {
-	width: 450px;
-	height: 450px;
-	margin: 20px 0 0 0;
-	background-color: #6d6d6d;
+#project-text {
+    width: 450px;
+    height: 380px;
+    border-bottom: #525252 1px solid;
 }
 
-/* TRAA Project Archives*/
+#project-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 0;
+    color: black;
+}
+
+#project-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+#project-text p {
+    margin: 0 0 50px 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+#project button {
+    margin: 25px 0 0 0;
+}
+
+.read-more-button {
+    background-color: #9abd4b;
+    color: white;
+    font-size: 20px;
+    padding: 13px 15px;
+    text-decoration: none;
+    border-radius: 50px; 
+    border: none;
+}
+
+
+/* project Archives */
 #project-archives-container {
-	margin: 80px 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#archives-title {
-	width: 330px;
-	height: 45px;
-	background-color: #6d6d6d;
+#archives {
+    width: 450px;
 }
 
-#archieves-box-container {
-	margin: 50px 0 0 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+#archives-title h2 {
+    font-size: 45px;
+    color: #9abd4b;
+    margin: 80px 0 50px 0;
 }
 
-.archieves-img {
-	width: 450px;
-	height: 450px;
-	background-color: #ff5656;
+.archives-img {
+    margin: 0;
 }
 
-.archieves-text {
-	width: 450px;
-	height: 450px;
-	margin: 20px 0 0 0;
-	background-color: #6d6d6d;
+#archives-text {
+    width: 450px;
+    height: 80px;
+    margin: 20px 0 0 0;
+    border-bottom: #525252 1px solid;
+}
+
+#archives-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+}
+
+#archives button {
+    margin: 25px 0 0 0;
 }
 
 
+/* footer */
 
-/* footer*/
-#footer-container {
-	margin: 120px 100px 0 100px;
-	display: flex;
-	flex-direction: row;
+
+#footer {
+    width: 1200px;
+    height: 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 120px 0 0 0;
+    background-color: #dadada;
 }
 
-#footer-logo {
-	width: 150px;
-	height: 134px;
-	background-color: #ff5656;
+#footer-left {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0 auto 100px;
 }
 
-#footer-text-container {
-	margin: auto 27px;
+#footer-img {
+    margin: auto 0;
 }
 
-.footer-title {
-	width: 270px;
-	height: 45px;
-	margin: 0 0 20px 0;
-	background-color: #6d6d6d;
+#footer-text {
+    margin: 40px 0 40px 30px;
+}
+
+.footer-traa {
+    font-size: 15px;
+    margin: 0;
 }
 
 .footer-address {
-	width: 195px;
-	height: 15px;
-	background-color: #6d6d6d;
+    font-size: 15px;
+    margin: 12px 0 50px 0;
+}
+.copyright {
+    font-size: 15px;
+    margin: 0;
 }
 
-#footer-social{
-	margin: auto 0 auto 326px;
-	display: flex;
-	flex-direction: row;
+#footer-right {
+    margin: auto 100px auto 0;
 }
 
-.footer-social-icon {
-	width: 60px;
-	height: 60px;
-	margin: auto 0 auto 40px;
-	background-color: #ff5656;
+#footer-right img {
+    margin-left: 40px;
 }
