@@ -24,6 +24,6 @@ dev.hrk.TRAAabout
 * about.html
 * main.css
 
-dev.@@@.TRAAhome
+dev.vsm.TRAAhome
 * index.html
 * main.css
